@@ -1,4 +1,3 @@
-// pages/survey.tsx
 import React from "react";
 import SurveyComponent from "../components/SurveyComponent";
 

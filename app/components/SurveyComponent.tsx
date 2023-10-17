@@ -21,18 +21,18 @@ const SurveyComponent: React.FC = () => {
   };
 
   return (
-    <div>
-      <h2>Deltakerinformasjon</h2>
-      <p>ID: {participant.id}</p>
-      <p>Navn: {participant.name}</p>
-      {participant.email && <p>E-post: {participant.email}</p>}
+    <div className="p-4 border border-gray-300 rounded shadow-md">
+    <h2 className="text-lg font-semibold">Deltakerinformasjon</h2>
+    <p>ID: {participant.id}</p>
+    <p>Navn: {participant.name}</p>
+    {participant.email && <p>E-post: {participant.email}</p>}
 
-      <h2>Respons på spørsmål</h2>
-      <p>Spørsmål 1: {response.answer}</p>
-      <p>Spørsmål 2: {responses["question2"].join(", ")}</p>
-      <p>Spørsmål 3: {responses["question3"]}</p>
-    </div>
-  );
+    <h2 className="text-lg font-semibold mt-4">Respons på spørsmål</h2>
+    <p>Spørsmål 1: {response.answer}</p>
+    <p>Spørsmål 2: {responses["question2"].join(", ")}</p>
+    <p>Spørsmål 3: {responses["question3"]}</p>
+  </div>
+);
 };
 
 export default SurveyComponent;
