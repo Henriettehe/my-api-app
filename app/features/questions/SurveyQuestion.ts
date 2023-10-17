@@ -11,4 +11,17 @@ type SurveyQuestion = {
   type SurveyQuestionWithOptions = SurveyQuestion & {
     options: string[];
   };
+
+  const question1: SurveyQuestion = {
+    id: "1",
+    question: "Hva er din favorittfarge?",
+    isRequired: true,
+  };
+  
+  const question2: SurveyQuestionWithOptions = {
+    id: "2",
+    question: "Hvilken type musikk foretrekker du?",
+    isRequired: false,
+    options: ["Rock", "Pop", "Hip Hop", "Jazz"],
+  };
   
