@@ -12,6 +12,8 @@ type SurveyQuestion = {
     options: string[];
   };
 
+
+  // Lagd noe logikk, må puttes inn og rendres ut :)
   const question1: SurveyQuestion = {
     id: "1",
     question: "Hva er din favorittfarge?",
