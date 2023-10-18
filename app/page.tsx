@@ -1,11 +1,12 @@
 import React from "react";
 import SurveyComponent from "../components/SurveyComponent";
 import Navigation from "@/components/Navigation";
+import Title from "@/components/Title";
 
 const SurveyPage: React.FC = () => {
   return (
     <div>
-      <h1>Spørreundersøkelse</h1>
+      <Title />
       <Navigation />
       <SurveyComponent />
     </div>
