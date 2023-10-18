@@ -1,4 +1,5 @@
 // Kilde/dokumentasjon: https://nextjs.org/docs/pages/building-your-application/routing/custom-document
+// Usikker på om dette er nødvendig? :/ Må finne ut av dette. 
 
 import Document, {
   Html,
