@@ -7,11 +7,11 @@ const Navigation: React.FC = () => {
   return (
     <nav>
       <Link href="/">
-        <a>Hjem</a>
+        Hjem
       </Link>
       {" | "}
       <Link href="/questions">
-        <a>Spørsmål</a>
+        Spørsmål
       </Link>
     </nav>
   );
