@@ -4,7 +4,7 @@ import {
   SurveyParticipant,
   SurveyResponse,
   SurveyResponses,
-} from "../types/types"; // Importer de tidligere definerte typene
+} from "../types/SurveyTypes"; // Importer de tidligere definerte typene
 
 const SurveyComponent: React.FC = ({ questions }) => {
   const participant: SurveyParticipant = {
@@ -15,7 +15,7 @@ const SurveyComponent: React.FC = ({ questions }) => {
 
   const response: SurveyResponse = {
     participant: participant,
-    questionId: "question1",
+    questionId: "1",
     answer: "Ja",
   };
 
