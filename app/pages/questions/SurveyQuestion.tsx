@@ -9,13 +9,13 @@ const questions: SurveyQuestion[] = [
   {
     id: "1",
     question: "Hva er din favorittfarge?",
-    isRequired: true,
+    //isRequired: true,
     options: ["Rød", "Blå", "Grønn"],
   },
   {
     id: "2",
     question: "Hvor gammel er du?",
-    isRequired: false,
+    //isRequired: false,
     options: ["Under 18", "18-25", "Over 25"],
   },
 ];
@@ -27,3 +27,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     res.status(405).json({ error: "Method not allowed" });
   }
 }
+
+//return (
+//  <SurveyQuestion />
+// )
