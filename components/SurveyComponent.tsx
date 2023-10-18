@@ -8,7 +8,7 @@ import {
 const SurveyComponent: React.FC = () => {
   const participant: SurveyParticipant = {
     id: "12345",
-    name: "Henriette Navnesen",
+    name: "Henriette Studentensen",
     email: "Henriette@example.com",
   };
 
