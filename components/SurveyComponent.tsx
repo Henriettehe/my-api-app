@@ -28,9 +28,9 @@ const SurveyComponent: React.FC = ({ questions }) => {
   return (
     <div className="p-4 border border-gray-300 rounded shadow-md">
       <h2 className="text-lg font-semibold">Deltakerinformasjon</h2>
-      <p className="text-lg font-semibold">ID: {participant.id}</p>
-      <p className="text-lg font-semibold">Navn: {participant.name}</p>
-      {participant.email && <p className="text-lg font-semibold">E-post: {participant.email}</p>}
+      <p>ID: {participant.id}</p>
+      <p>Navn: {participant.name}</p>
+      {participant.email && <p>E-post: {participant.email}</p>}
 
       <h2 className="text-lg font-semibold mt-4">Respons på spørsmål</h2>
       <p>Spørsmål 1: {response.answer}</p>
