@@ -1,5 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { SurveyQuestion } from "./questions/SurveyQuestion";
+// Kilde: Kodeeksempel fra Fullstækk - videoforlesninger og forklaring. ++ Google og ChatGpt, og dokumentasjon. Dette gjelder alt av kode! 
 
 const questions: SurveyQuestion[] = [
   {

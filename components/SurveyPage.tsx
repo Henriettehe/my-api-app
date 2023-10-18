@@ -1,3 +1,5 @@
+// Kilde: Kodeeksempel fra Fullstækk - videoforlesninger og forklaring. ++ Google, Chatgpt. 
+
 import React, { useEffect, useState } from "react";
 import SurveyComponent from "./components/SurveyComponent";
 import { SurveyQuestion } from "../app/pages/questions/SurveyQuestion";
