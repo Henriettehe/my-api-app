@@ -8,7 +8,7 @@ const SurveyPage = () => {
   const [questions, setQuestions] = useState<SurveyQuestion[]>([]);
 
   useEffect(() => {
-    fetch("/pages/questions") // Riktig relativ bane til API-ruta
+    fetch("/pages/questions") //Linke til spørsmålene, men hmmm... Litt tung i hodet, så klarer ikke å skjønne hvordan få linket til i Nav-komponentet. 
       .then((response) => response.json())
       .then((data) => setQuestions(data)); //Oppdaterer staten. 
   }, []);
