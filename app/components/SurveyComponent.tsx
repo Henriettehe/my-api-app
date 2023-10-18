@@ -1,5 +1,5 @@
 import React from "react";
-import { SurveyParticipant, SurveyResponse, SurveyResponses } from "./types"; // Importer de tidligere definerte typene
+import { SurveyParticipant, SurveyResponse, SurveyResponses } from "../components/types"; // Importer de tidligere definerte typene
 
 const SurveyComponent: React.FC = () => {
   const participant: SurveyParticipant = {
