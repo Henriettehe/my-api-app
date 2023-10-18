@@ -1,4 +1,4 @@
-// De ulike typene, lagt i ett types.ts fil. Kan gjenbrukes videre ut i komponenter og koden. 
+// De ulike typene, lagt i ett types.ts fil. Kan gjenbrukes videre ut i komponenter og koden.
 type SurveyAnswer = string | number | string[] | number[];
 
 type SurveyParticipant = {
