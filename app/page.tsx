@@ -1,5 +1,5 @@
 import React from "react";
-import SurveyComponent from "./components/SurveyComponent";
+import SurveyComponent from "../components/SurveyComponent";
 
 const SurveyPage: React.FC = () => {
   return (
