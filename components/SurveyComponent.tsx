@@ -3,7 +3,7 @@ import {
   SurveyParticipant,
   SurveyResponse,
   SurveyResponses,
-} from "./types"; // Importer de tidligere definerte typene
+} from "../types/types"; // Importer de tidligere definerte typene
 
 const SurveyComponent: React.FC = () => {
   const participant: SurveyParticipant = {
