@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { SurveyQuestion } from "../app/questions";
+import { SurveyQuestion } from "./questions/SurveyQuestion";
 
 const questions: SurveyQuestion[] = [
   {
