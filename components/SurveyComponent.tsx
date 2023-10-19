@@ -1,5 +1,4 @@
 import React from "react";
-import { SurveyQuestion } from "../SurveyQuestion";
 import {
   SurveyParticipant,
   SurveyResponse,
