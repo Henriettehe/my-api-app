@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import SurveyComponent from "./components/SurveyComponent";
-import { SurveyQuestion } from "./SurveyQuestion";
+import { SurveyQuestion } from "../app/pages/questions/[id]/SurveyQuestion";
 
 const SurveyPage = () => {
   const [questions, setQuestions] = useState<SurveyQuestion[]>([]);
