@@ -5,6 +5,9 @@ import { SurveyQuestion } from "SurveyQuestion";
 // Kommentar: utrolig usikker på dette kompontetet, hadde ønsket å kunne linke det til ./ pathen "questions". 
 // -- for å komme seg på ny side, og besvare spørsmålene under her:  
 
+
+// Ikke optimalt, jeg skulle nok ha startet helt på nytt med nytt Next-prosjekt. Men håper det blir bedre med litt gruppearbeid! 
+
 const questions: SurveyQuestion[] = [
   {
     id: "1",
@@ -20,6 +23,7 @@ const questions: SurveyQuestion[] = [
   },
 ];
 
+// Ufatterlig usikker på denne: 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "GET") {
     res.status(200).json(questions);
@@ -27,7 +31,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     res.status(405).json({ error: "Method not allowed" });
   }
 }
-
 //return (
-//  Må jo ha noe ut her, for å få spørsmålene ut på sia 
+//
 // )
