@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import SurveyComponent from "./components/SurveyComponent";
-import { SurveyQuestion } from "../app/pages/questions/SurveyQuestion";
+import { SurveyQuestion } from "./SurveyQuestion";
 
 const SurveyPage = () => {
   const [questions, setQuestions] = useState<SurveyQuestion[]>([]);
@@ -16,7 +16,7 @@ const SurveyPage = () => {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">Spørreundersøkelse</h1>
-      <SurveyComponent questions={questions} /> {/* Passer spørsmålene som props */}
+      <SurveyComponent questions={questions} /> {/* Passere spørsmålene som props */}
     </div>
   );
 };
