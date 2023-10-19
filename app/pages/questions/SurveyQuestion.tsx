@@ -29,5 +29,5 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 }
 
 //return (
-//  Må jo ha noe ut her, for å få spørsmålene ut på sia. 
+//  Må jo ha noe ut her, for å få spørsmålene ut på sia 
 // )
