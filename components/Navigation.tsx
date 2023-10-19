@@ -3,9 +3,9 @@ import "tailwindcss/tailwind.css"; // Importert Tailwind CSS.
 import React from "react";
 import Link from "next/link";
 
-const Navigation: React.FC = () => {
+const Navigation = () => {
   return (
-    <nav>
+    <nav className="navigation">
       <Link href="/">
         <button className="bg-blue-500 text-white px-4 py-2 rounded">Hjem</button>
       </Link>

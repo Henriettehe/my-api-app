@@ -5,7 +5,7 @@ import {
   SurveyResponses,
 } from "../types/SurveyTypes"; // Importer de tidligere definerte typene
 
-const SurveyComponent: React.FC = ({ questions }) => {
+const SurveyComponent = ({ questions }) => {
   const participant: SurveyParticipant = {
     id: "12345",
     name: "Henriette Studentensen",

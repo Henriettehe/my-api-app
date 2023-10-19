@@ -3,7 +3,7 @@ import SurveyComponent from "../components/SurveyComponent";
 import Navigation from "@/components/Navigation";
 import Title from "@/components/Title";
 
-const SurveyPage: React.FC = () => {
+const SurveyPage = () => {
   return (
     <div>
       <Title />
