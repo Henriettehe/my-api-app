@@ -5,7 +5,7 @@ import {
   SurveyResponses,
 } from "../types/SurveyTypes"; // Importer de tidligere definerte typene
 
-const SurveyComponent = ({ questions }) => {
+const SurveyComponent = ({ }) => {
   const participant: SurveyParticipant = {
     id: "12345",
     name: "Henriette Studentensen",
@@ -33,7 +33,7 @@ const SurveyComponent = ({ questions }) => {
 
       <h2 className="text-lg font-semibold mt-4">Respons på spørsmål</h2>
       <p>Spørsmål 1: {response.answer}</p>
-      <p>Spørsmål 2: {responses["question2"].join(", ")}</p>
+      <p>Spørsmål 2: {responses["question2"]}</p>
       <p>Spørsmål 3: {responses["question3"]}</p>
     </div>
   );
